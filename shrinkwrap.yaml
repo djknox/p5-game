@@ -1,0 +1,12 @@
+dependencies:
+  eslint-config-p5js: 1.0.1
+packages:
+  /eslint-config-p5js/1.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-wEH6jLXnoc5ZEB2pXL3fy5Q+L+I=
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  eslint-config-p5js: ^1.0.1
