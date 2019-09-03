@@ -7,7 +7,8 @@ function setup() {
   createCanvas(width, height)
 }
 
-function draw() {    
-
+function draw() {
+  clear()    
+  square(mouseX, mouseY, 40)
 }
 
