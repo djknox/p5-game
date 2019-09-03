@@ -1,7 +1,9 @@
 /* eslint no-undef: 0 */
 
-const height = 600
-const width = 400
+let height = 600;
+let width = 400;
+let paddleWidth = 50;
+let paddleHeight = 10;
 
 function setup() {
   createCanvas(width, height);
@@ -9,6 +11,14 @@ function setup() {
 
 function draw() {
   clear();
-  rect(mouseX, 500, 50, 10);
+  rect(0, 0, width, height);
+
+  let paddleX = constrain(mouseX - paddleWidth / 2, 0, width - paddleWidth);
+
+  rect(
+    paddleX,
+    height * 0.9, paddleWidth,
+    paddleHeight
+  );
 }
 
