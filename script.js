@@ -4,11 +4,11 @@ const height = 600
 const width = 400
 
 function setup() {
-  createCanvas(width, height)
+  createCanvas(width, height);
 }
 
 function draw() {
-  clear()    
-  square(mouseX, mouseY, 40)
+  clear();
+  rect(mouseX, 500, 50, 10);
 }
 
